@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>classroom</title>
+</head>
+<body>
+<h1>{{className}}</h1>
+<h2>Phong: b12</h2>
+<h3>si so: {{siso}}</h3>
+
+<button (click)="themSinhVien()" type="button">Them sinh vien</button>
+<button (click)="giamSinhVien()" type="button">Giam sinh vien</button>
+<h1>so ban gai: {{sobangai}}</h1>
+<button (click)="thembangai()" type="button">Them ban gai</button>
+<button (click)="giambangai()" type="button">Giam ban gai</button>
+<student [classN]="className"></student>
+<teacher [teaC]="schoolName"></teacher>
+</body>
+</html>
